@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Central Library Tour App</string>
+    <string name="floor_1">1 - First Floor</string>
+    <string name="computer_lab">Computer Lab</string>
+    <string name="makerspace">Makerspace</string>
+    <string name="indy_reads">Indy Reads</string>
+
+
+    <string name="floor_2">2 - Second Floor</string>
+    <string name="atrium">Atrium</string>
+    <string name="learning_curve">Learning Curve</string>
+    <string name="gathering_space">Gathering Spaces - Auditorium and Meeting Rooms</string>
+
+    <string name="floor_cret">Old Library - The Cret</string>
+    <string name="floor_cret_materials">The Cret Materials</string>
+    <string name="cblc">Center for Black Literature and Culture</string>
+    <string name="cblc">Cret Architecture</string>
+
+    <string name="floor_3">3 - Third Floor</string>
+    <string name="floor_3_materials">Third Floor Materials</string>
+    <string name="teen_area">Teens @ The Curve</string>
+    <string name="study_rooms">Study Rooms</string>
+
+
+    <string name="floor_4">4 - Fourth Floor</string>
+    <string name="floor_4_materials">Fourth Floor Materials</string>
+    <string name="general_use_pc">Computers for General Use</string>
+    <string name="outreach_room">Outreach Room</string>
+
+    <string name="floor_5">5 - Fifth Floor</string>
+    <string name="floor_5_materials">Fifth Floor Materials</string>
+
+    <string name="floor_6">6 - Sixth Floor</string>
+    <string name="special_collections">Special Collections Room</string>
+    <string name="city_view">View the City</string>
+    <string name="floor_6_materials">Sixth Floor Materials</string>
+</resources>

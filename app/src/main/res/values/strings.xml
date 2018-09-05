@@ -14,7 +14,7 @@
     <string name="floor_cret">Old Library - The Cret</string>
     <string name="floor_cret_materials">The Cret Materials</string>
     <string name="cblc">Center for Black Literature and Culture</string>
-    <string name="cblc">Cret Architecture</string>
+    <string name="architecture">Cret Architecture</string>
 
     <string name="floor_3">3 - Third Floor</string>
     <string name="floor_3_materials">Third Floor Materials</string>
@@ -34,4 +34,7 @@
     <string name="special_collections">Special Collections Room</string>
     <string name="city_view">View the City</string>
     <string name="floor_6_materials">Sixth Floor Materials</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

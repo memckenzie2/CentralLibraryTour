@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary">
+    android:background="@color/colorPrimary"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
 
     <ImageView
         android:id="@+id/location_image"
         android:layout_width="336dp"
         android:layout_height="28dp"
         android:background="@color/colorAccent"
-        android:scaleType="fitCenter"
-        app:srcCompat="@android:drawable/btn_star_big_on"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="20dp" />
+        android:scaleType="fitCenter" />
 
     <TextView
         android:id="@+id/location_name"
@@ -26,11 +25,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:background="@color/colorAccent"
-        android:text="test"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/location_image" />
+        android:text="test" />
 
     <TextView
         android:id="@+id/location_description"
@@ -43,13 +38,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
         android:background="@color/colorAccent"
-        android:text="test"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/location_name"
-        app:layout_constraintVertical_bias="0.007" />
+        android:text="test" />
 
     <Button
         android:id="@+id/view_in_map"
@@ -61,10 +50,5 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
-        android:background="@color/colorAccent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/location_description"
-        app:layout_constraintVertical_bias="0.019" />
-</android.support.constraint.ConstraintLayout>
+        android:background="@color/colorAccent" />
+</LinearLayout>

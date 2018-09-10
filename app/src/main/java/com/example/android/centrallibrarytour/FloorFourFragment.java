@@ -25,9 +25,9 @@ public class FloorFourFragment extends Fragment {
 
         //Create list of locations for Cret Building
         final ArrayList<LocationData> locs = new ArrayList<LocationData>();
-        locs.add(new LocationData("6th Floor Materials", "The 6th Floor of the \"New\" Library is the Quiet Floor. It host the Fiction Collection, including book and audiobooks. This collection contains general fiction, and dedicated collections such as Mystery, Fantasy/Sci-Fi, and Urban Fiction. The East Wing also has a city observation deck and IndyPL's Indianapolis Special Collection Room containing a collection of unique archival items of local or global significance.", null));
-        locs.add(new LocationData("Nina Mason Pulliam Indianapolis Special Collections Room", "The Nina Mason Pulliam Indianapolis Special Collections Room houses collections of archival materials of local or global significance. These include adult and children's materials by local authors, photographs, scrapbooks, typescripts, manuscripts, autographed editions, letters, newspapers, magazines, and realia. This collection has items from famous authors ranging from hometown heros such as Kurt Vonnegut to global powerhouses such as Shakespeare.", null));
-
+        locs.add(new LocationData(getString(R.string.floor_4_materials), getString(R.string.floor_4_materials_blurb), null,R.drawable.pict0038_2 ));
+        locs.add(new LocationData(getString(R.string.general_use_pc), getString(R.string.general_use_pc_blurb), null, R.drawable.imcpl_599));
+        locs.add(new LocationData(getString(R.string.outreach_room), getString(R.string.outreach_room_blurb), null));
         //Create a {@link LocationArrayAdapter} with a list of {@link LocationData}s
         LocationArrayAdapter adapter = new LocationArrayAdapter(getActivity(), locs);
 

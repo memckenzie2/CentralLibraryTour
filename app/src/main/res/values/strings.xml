@@ -1,39 +1,57 @@
 <resources>
     <string name="app_name">Central Library Tour App</string>
-    <string name="floor_1">1 - First Floor</string>
+    <string name="view_on_map">View on Map</string>
+    <string name="floor_1">1</string>
+    <string name="floor_1_materials">1st Floor Materials</string>
+    <string name="floor_1_materials_blurb">The 1st Floor of the "New" Library contains the Computer Lab, Makerspace (open only during program hours, see event calendar), a 24/7 Return Box for library materials, Offices for Indy Reads, and Lost and Found. It also provides access to the building via the 9th Street Entrance (Handicap Accessible).</string>
     <string name="computer_lab">Computer Lab</string>
+    <string name="computer_lab_blurb">The Computer Lab has 36 public computers and designated staff to help answer questions about basic computer task. Common tasks that Computer Lab staff assist with are answering questions about navigating the internet, e-mail, Microsoft Office products, and the librarys digital collection./nThere is also a 12-Seat Training Lab offering classes on computer skills ranging from complete beginner to advanced. The Training Lab also host the Job Center four times a week to help job seekers with common tasks such as writing resumes and filling in online applications.</string>
     <string name="makerspace">Makerspace</string>
+    <string name="makerspace_blurb">The Makerspace hosts workshops on 3D Printing, Sewing, Paper and Fiber Crafts, Cooking, Coding, and other art and maker focused activities for adults. </string>
     <string name="indy_reads">Indy Reads</string>
-
-
-    <string name="floor_2">2 - Second Floor</string>
-    <string name="atrium">Atrium</string>
-    <string name="learning_curve">Learning Curve</string>
-    <string name="gathering_space">Gathering Spaces - Auditorium and Meeting Rooms</string>
-
-    <string name="floor_cret">Old Library - The Cret</string>
+    <string name="indy_reads_blurb">Indy Reads works to improve the literacy of adults and families in Central Indiana. They offer free literacy, English language, and digital skills instruction to adults. Want to get invovled? Stop by and ask about volunteer opportunities. </string>
+    <string name="floor_cret">Old</string>
     <string name="floor_cret_materials">The Cret Materials</string>
+    <string name="floor_cret_materials_blurb">The Cret hosts several collection including New Materials in the central Plaze, World Literature and Materials in the central stacks, Biography and Archival Reference in the East wing, and the Center for Black Literature and Culture in the West Wing.</string>
     <string name="cblc">Center for Black Literature and Culture</string>
+    <string name="cblc_blurb">The west wing of the Cret is dedicated to the Center for Black Literature and Culture (CBLC). This collection and space is dedicated to celebrating the vibrant and resilient heritage and triumphs of those born of African roots. It has a particular focus on black icons who have Indiana roots but also highlights the works of notable figures who have had a national or global impact .  This space has both permanent and rotating displays appropriate for all age levels, a collection of materials maintained by Special Collections Librarian Nichelle Hayes, and hosts a variety of community events and workshops for artists and authors.</string>
     <string name="architecture">Cret Architecture</string>
-
-    <string name="floor_3">3 - Third Floor</string>
+    <string name="architecture_blurb">The original Central Library building, known as \"The Cret\" for its designer Paul Cret, was opened in October 1917. It was built on land donated by noted Indiana Poet James Whitcomb Riley. The Cret has a Greek Doric style with an exterior constructed from Indiana limestone with carved stone cornices and a base of Vermont marble. Two bronze gates at the main entrance were purchased with pennies donated by Indianapolis school children in1916 and continued refurbishment efforts have been funded in part by penny donations from local school children through 2017.\n" +\nInternal design features include materials such as Indiana limestone, walnut and white oak and a reading room with a ceiling painted in the Pompeian style by C. C. Zantzinger and telling the history of Indiana. See if you can spot your favorite author among the many carved into the exterion walls of the building.</string>
+    <string name="floor_2">2</string>
+    <string name="welcome">Welcome to Central Library!</string>
+    <string name="welcome_blurb">Welcome to the largest library branch in Indianapolis. This branch is home to over a million items from our collection. Central Library is composed of the three story "old" library (The Cret) and the six story "new" library (The Tower). The two buildings are connected by the Atrium. October 2017 marked the 100th anniversary of Central Library.</string>
+    <string name="atrium">Atrium</string>
+    <string name="atrium_blurb">The atrium is a 10,000 square foot glass-enclosed space. It serve as the main hub that connects the "old" library (The Cret) with the "new" library (The Tower). The atrium has an information desk to direct visitors, a large check out area, cafe, and numerous tables and chairs for patrons to enjoy the light, open space. The atirum hosts weekly activities such as family game night, the e-book Tinker Statio, and Low-Income Healthcare Registration.  The atrium is also a popular location to host weddings, parties, and social events after-hours.  The atrium provides access to the library's parking garage and thus is often the first impression for visitors.</string>
+    <string name="atrium_art">Art at Central</string>
+    <string name="atrium_art_blurb">Central Library has both permanent and rotating art installations. The largest and most popular forms a reading and reflection nook in the center of the bustling atrium. It has sculptures located near both entrances, a bison-tenial bison sculpture, Garfield Racing statue, and more spread through-out he building. In additon, each year the library hosts a Meet-the-Artist event and numerous art displays from professional artists and local youth.</string>
+    <string name="learning_curve">Learning Curve</string>
+    <string name="learning_curve_blurb">The Learning Curve is a high tech, learning environment designed for children and families. Lovingly known as "The Curve", this space hosts school groups and families for events that build  the critical thinking skills needed to navigate the information world. It also house the extensive juvinile fiction and juvenile foreign language collections. The Curve has a green screen, family tech centers, early literacy area, and media workshops that are open daily. There are also a wide array of weekly workshops and special events through out the year.</string>
+    <string name="auditorium">Auditorium</string>
+    <string name="meeting_room">Meeting Rooms</string>
+    <string name="auditorium_blurb">The Clowes Auditorium is a 300 seat space that hosts speakers, musicians, and performances. It was design as an acoustically-correct concert and meeting hall. Popular on-going programs for the space are Teddy Bear concerts with the Indianapolis Symphony Orchestra for children, Hometown Roots concercts with local musicians, and candidate forums for local offices. </string>
+    <string name="meeting_room_blurb">Three large meeting rooms, Riley, Knall, and Goodrich/Houk, are available for reservation. They also host library programming such as workshops, book discussions, and learning activities. Each room has a projector, white board, and a system for sound projection.</string>
+    <string name="floor_3">3</string>
     <string name="floor_3_materials">Third Floor Materials</string>
+    <string name="floor_3_materials_blurb">The 3rd floor is split into separate collection areas in the East and West wings. Three West houses the adult DVD collection, including feature films, foreign language films, and non-fiction, music CDs, current periodicals, and the adult graphic novel. Three East is home to the Teen collection with accompanying Teen Hangout area, juvenile non-fiction, Familt PC center, and childrens DVDS. In addition, this floor houses public study rooms, the Adult Think Tank, and the Assistive Technology Room.</string>
     <string name="teen_area">Teens @ The Curve</string>
-    <string name="study_rooms">Study Rooms</string>
-
-
-    <string name="floor_4">4 - Fourth Floor</string>
+    <string name="teen_area_blurb">The Teen Hangout area hosts the entire teen collection including non-fiction, fiction, and graphic novels. In addition, the space is used to display local teen art and host workshops and entertianment programs that are only open to teens ages 13 and up. In order to provide a safe, quiet space for teens to study, read, or hangout the staff ensure that only teens or familys with children are using the study areas and hangout space on this floor. </string>
+    <string name="assistive">Assistive Technology Room</string>
+    <string name="assistive_blurb">The Assistive Technology Room has a specially designed workstation intended to help patrons with mobility, visual, and learning disabilities. Additional assistive services include handheld magnifiers, magnicams, and a Sorenson phone for the hearing impaired.</string>
+    <string name="floor_4">4</string>
     <string name="floor_4_materials">Fourth Floor Materials</string>
+    <string name="floor_4_materials_blurb">The 4th Floor of the Tower houses the books and audiobooks with Call Numbers from 300-699. This range includes the topics Social Issues, Law, Business, Education, Computer Science, Philosphy, Religion, Social Sciences, Family, Cooking, and Home Topics. In addition this floor houses public study rooms, the Homeless Outreach room, and the Foundation Collection.</string>
     <string name="general_use_pc">Computers for General Use</string>
-    <string name="outreach_room">Outreach Room</string>
-
-    <string name="floor_5">5 - Fifth Floor</string>
+    <string name="general_use_pc_blurb">Computers can be accessed using a library card or a guest pass (available at the reference desk). Computer sessions are for 60 minutes with the possibility for extension if no other patron is waiting. Computers run Windows 7 and have access to the internet, Microsoft Office 2010 (Word, Excel, PowerPoint, etc.). Photoshop Elements, and more. Files can not be saved to the computers so you will need to use a usb flash drive to download or save files. </string>
+    <string name="outreach_room">Homeless Outreach Room</string>
+    <string name="outreach_room_blurb">Individuals experiencing homelessness can speak to staff memebers ar the 4th Floor reference desk to be connected to resources. The outreach room may be able to provide toiletries and snack packs to help address immediate needs. Staff can also connect those seeking further assistance with outreach groups that can help with establishing mailing addresses, acquiring identity documents, healthcare, housing, domestic violence, and other common issues for those without a permanent residence.</string>
+    <string name="floor_5">5</string>
     <string name="floor_5_materials">Fifth Floor Materials</string>
-
-    <string name="floor_6">6 - Sixth Floor</string>
-    <string name="special_collections">Special Collections Room</string>
-    <string name="city_view">View the City</string>
+    <string name="floor_5_materials_blurb">The 5th Floor of the Tower houses the books and audiobooks with Call Numbers from 700-999. This range includes the topics Sports,Entertainment, Literature, History, Travel, Arts and Music. This floor also has the music scores, micro-film collection, and bound periodicals.</string>
+    <string name="floor_6">6</string>
+    <string name="special_collections">Nina Mason Pulliam Indianapolis Special Collections Room</string>
+    <string name="special_collections_blurb">The Nina Mason Pulliam Indianapolis Special Collections Room houses collections of archival materials of local or global significance. These include adult and childrens materials by local authors, photographs, scrapbooks, typescripts, manuscripts, autographed editions, letters, newspapers, magazines, and realia. This collection has items from famous authors ranging from hometown heros such as Kurt Vonnegut to global powerhouses such as Shakespeare.</string>
     <string name="floor_6_materials">Sixth Floor Materials</string>
+    <string name="floor_6_materials_blurb">The 6th Floor of the Tower is the Quiet Floor. It host the Fiction Collection, including book and audiobooks. This collection contains general fiction, and dedicated collections such as Mystery, Fantasy/Sci-Fi, and Urban Fiction. The East Wing also has a city observation deck and IndyPLs Indianapolis Special Collection Room containing a collection of unique archival items of local or global significance.</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

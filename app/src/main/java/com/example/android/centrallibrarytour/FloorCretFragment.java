@@ -30,12 +30,9 @@ public class FloorCretFragment extends Fragment {
 
         //Create list of locations for Cret Building
         final ArrayList<LocationData> locs = new ArrayList<LocationData>();
-        locs.add(new LocationData("Cret Materials", "The Cret hosts several collection including New Materials in the central Plaze, World Literature and Materials in the central stacks, Biography and Archival Reference in the East wing, and the Center for Black Literature and Culture in the West Wing.\n", null));
-        locs.add(new LocationData("Center for Black Literature and Culture", "The west wing of the Cret is dedicated to the Center for Black Literature & Culture (CBLC). This collection and space is dedicated to celebrating the vibrant and resilient heritage and triumphs of those born of African roots. It has a particular focus on black icons who have Indiana roots but also highlights the works of notable figures who have had a national or global impact .  This space has both permanent and rotating displays appropriate for all age levels, a collection of materials maintained by Special Collections Librarian Nichelle Hayes, and hosts a variety of community events and workshops for artists and authors.", null));
-        locs.add(new LocationData("The Cret Architecture", "The original Central Library building, known as \"The Cret\" for its designer Paul Cret, was opened in October 1917. It was built on land donated by noted Indiana Poet James Whitcomb Riley. The Cret has a Greek Doric style with an exterior constructed from Indiana limestone with carved stone cornices and a base of Vermont marble. Two bronze gates at the main entrance were purchased with pennies donated by Indianapolis school children in1916 and continued refurbishment efforts have been funded in part by penny donations from local school children through 2017.\n" +
-                "\n" +
-                "Internal design features include materials such as Indiana limestone, walnut and white oak and a reading room with a ceiling painted in the Pompeian style by C. C. Zantzinger and telling the history of Indiana." +
-                "See if you can spot your favorite author among the many carved into the exterion walls of the building.", null));
+        locs.add(new LocationData(getString(R.string.floor_cret_materials),getString(R.string.floor_cret_materials_blurb) , "null", R.drawable.east_reading_room_2009_kisling));
+        locs.add(new LocationData(getString(R.string.cblc), getString(R.string.cblc_blurb), null, R.drawable.cblc_website_photos_04));
+        locs.add(new LocationData(getString(R.string.architecture), getString(R.string.architecture_blurb), null, R.drawable.p9140521));
 
         //Create a {@link LocationArrayAdapter} with a list of {@link LocationData}s
         LocationArrayAdapter adapter = new LocationArrayAdapter(getActivity(), locs);

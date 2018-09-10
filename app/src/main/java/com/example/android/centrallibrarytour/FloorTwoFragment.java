@@ -26,8 +26,13 @@ public class FloorTwoFragment extends Fragment {
 
         //Create list of locations for Cret Building
         final ArrayList<LocationData> locs = new ArrayList<LocationData>();
-        locs.add(new LocationData("6th Floor Materials", "The 6th Floor of the \"New\" Library is the Quiet Floor. It host the Fiction Collection, including book and audiobooks. This collection contains general fiction, and dedicated collections such as Mystery, Fantasy/Sci-Fi, and Urban Fiction. The East Wing also has a city observation deck and IndyPL's Indianapolis Special Collection Room containing a collection of unique archival items of local or global significance.", null));
-        locs.add(new LocationData("Nina Mason Pulliam Indianapolis Special Collections Room", "The Nina Mason Pulliam Indianapolis Special Collections Room houses collections of archival materials of local or global significance. These include adult and children's materials by local authors, photographs, scrapbooks, typescripts, manuscripts, autographed editions, letters, newspapers, magazines, and realia. This collection has items from famous authors ranging from hometown heros such as Kurt Vonnegut to global powerhouses such as Shakespeare.", null));
+        locs.add(new LocationData(getString(R.string.welcome), getString(R.string.welcome_blurb), "geo:39.777957,-86.1589627,17z", R.drawable.dscf0083));
+        locs.add(new LocationData(getString(R.string.atrium), getString(R.string.atrium_blurb), null, R.drawable.central_photos_131_2013));
+        locs.add(new LocationData(getString(R.string.learning_curve), getString(R.string.learning_curve_blurb), null, R.drawable.srp_curve_001));
+        locs.add(new LocationData(getString(R.string.meeting_room), getString(R.string.meeting_room_blurb), null, R.drawable.central_photos_architect_photos_008));
+        locs.add(new LocationData(getString(R.string.auditorium), getString(R.string.welcome_blurb), null, R.drawable.central_photos_architect_photos_005));
+        locs.add(new LocationData(getString(R.string.atrium_art), getString(R.string.atrium_art_blurb), null, R.drawable.indianapolis_central_library3_central_pics));
+
 
         //Create a {@link LocationArrayAdapter} with a list of {@link LocationData}s
         LocationArrayAdapter adapter = new LocationArrayAdapter(getActivity(), locs);

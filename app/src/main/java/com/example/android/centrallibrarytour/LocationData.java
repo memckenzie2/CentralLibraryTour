@@ -2,7 +2,7 @@ package com.example.android.centrallibrarytour;
 
 public class LocationData {
     private String locName;
-    private String locPictureId;
+    private int locPictureId = -1;
     private String locDescription;
     private String locLink;
 
@@ -13,7 +13,7 @@ public class LocationData {
         setLocLink(locationLink);
     }
 
-    public LocationData(String locationName, String locationDescription, String locationLink, String locationPictureID){
+    public LocationData(String locationName, String locationDescription, String locationLink, int locationPictureID){
         setLocName(locationName);
         setLocDescription(locationDescription);
         setLocLink(locationLink);
@@ -29,11 +29,11 @@ public class LocationData {
 
     }
 
-    public String getLocPictureId() {
+    public int getLocPictureId() {
         return locPictureId;
     }
 
-    public void setLocPictureId(String locPictureID) {
+    public void setLocPictureId(int locPictureID) {
         this.locPictureId = locPictureID;
     }
 

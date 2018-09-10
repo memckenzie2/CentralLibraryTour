@@ -24,10 +24,10 @@ public class FloorSixFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
-        //Create list of locations for Cret Building
+        //Create list of locations for the 6th Floor
         final ArrayList<LocationData> locs = new ArrayList<LocationData>();
-        locs.add(new LocationData("6th Floor Materials", "The 6th Floor of the \"New\" Library is the Quiet Floor. It host the Fiction Collection, including book and audiobooks. This collection contains general fiction, and dedicated collections such as Mystery, Fantasy/Sci-Fi, and Urban Fiction. The East Wing also has a city observation deck and IndyPL's Indianapolis Special Collection Room containing a collection of unique archival items of local or global significance.", null));
-        locs.add(new LocationData("Nina Mason Pulliam Indianapolis Special Collections Room", "The Nina Mason Pulliam Indianapolis Special Collections Room houses collections of archival materials of local or global significance. These include adult and children's materials by local authors, photographs, scrapbooks, typescripts, manuscripts, autographed editions, letters, newspapers, magazines, and realia. This collection has items from famous authors ranging from hometown heros such as Kurt Vonnegut to global powerhouses such as Shakespeare.", null));
+        locs.add(new LocationData(getString(R.string.floor_6_materials), getString(R.string.floor_6_materials_blurb), null, R.drawable.special_collections_room));
+        locs.add(new LocationData(getString(R.string.special_collections), getString(R.string.special_collections_blurb), null, R.drawable.iscr_collections__oct_2007));
 
         //Create a {@link LocationArrayAdapter} with a list of {@link LocationData}s
         LocationArrayAdapter adapter = new LocationArrayAdapter(getActivity(), locs);

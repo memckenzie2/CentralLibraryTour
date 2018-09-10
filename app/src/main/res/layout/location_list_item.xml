@@ -4,51 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@color/colorPrimaryLight"
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/location_image"
-        android:layout_width="336dp"
-        android:layout_height="28dp"
-        android:background="@color/colorAccent"
-        android:scaleType="fitCenter" />
 
     <TextView
         android:id="@+id/location_name"
-        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginLeft="@dimen/med_margin"
+        android:layout_marginRight="@dimen/med_margin"
+        android:layout_marginTop="@dimen/med_margin"
+        android:padding="@dimen/small_padding"
+        android:textStyle="bold"
+        android:textSize="@dimen/title_text"
+        android:textColor="@color/colorLightText"
+        android:background="@color/colorPrimary"
+        app:fontFamily="@font/marmelad"
+        />
+
+    <ImageView
+        android:id="@+id/location_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="@dimen/med_margin"
+        android:layout_marginRight="@dimen/med_margin"
         android:background="@color/colorAccent"
-        android:text="test" />
+        android:scaleType="centerCrop" />
 
     <TextView
         android:id="@+id/location_description"
-        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginBottom="@dimen/med_margin"
+        android:layout_marginLeft="@dimen/med_margin"
+        android:layout_marginRight="@dimen/med_margin"
+        android:padding="@dimen/small_padding"
+        android:textSize="@dimen/main_text"
+        android:textColor="@color/colorDarkText"
         android:background="@color/colorAccent"
-        android:text="test" />
+        />
 
     <Button
         android:id="@+id/view_in_map"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
-        android:background="@color/colorAccent" />
+        android:layout_marginBottom="@dimen/med_margin"
+        android:layout_marginLeft="@dimen/med_margin"
+        android:layout_marginRight="@dimen/med_margin"
+        android:padding="@dimen/small_padding"
+        android:layout_marginTop="@dimen/med_margin"
+        android:text="@string/view_on_map"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorLightText"/>
+
 </LinearLayout>

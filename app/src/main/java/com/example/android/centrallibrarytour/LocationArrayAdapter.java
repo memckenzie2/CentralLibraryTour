@@ -13,6 +13,12 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+/*CODE SOURCE AND PERMISSIONS
+ * The implementation for the ListView, MenuAdapter, ArrayAdapter, Fragments, and tabLayout were adapted from examples from the Miwok app in the Udacity Nanodegree.
+ * The source code for that project can be found here: https://github.com/udacity/ud839_Miwok/tree/lesson-one/app/src/main/java/com/example/android/miwok
+ * AND from the AudioBook App (created by this app's author Marianne McKenzie) for the Udacity nanodegree whose source code can be found here: https://github.com/memckenzie2/AudiobookApp
+ */
+
 public class LocationArrayAdapter extends ArrayAdapter<LocationData>{
     public LocationArrayAdapter(Context context, ArrayList<LocationData> loc) {
         super(context, 0, loc);

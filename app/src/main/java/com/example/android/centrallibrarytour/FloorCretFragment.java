@@ -11,6 +11,13 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+
+/* PERMISSIONS AND COPYRIGHT FOR IMAGES AND TEXT
+ * Images and text descriptions for Central Library are used with limited permission for academic use from the
+ * Indianapolis Public Library - this permission is granted only to the employee Marianne McKenzie.
+ * Images and text may not be reproduced by any other individual without prior written permission from the
+ * Indianapolis Public Library: http://www.indypl.org/about/contact/ */
+
 public class FloorCretFragment extends Fragment {
 
     public FloorCretFragment() {

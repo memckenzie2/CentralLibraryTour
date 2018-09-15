@@ -4,6 +4,18 @@ import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.design.widget.TabLayout;
+/*CODE SOURCE AND PERMISSIONS
+* The implementation for the ListView, MenuAdapter, ArrayAdapter, Fragments, and tabLayout were adapted from examples from the Miwok app in the Udacity Nanodegree.
+* The source code for that project can be found here: https://github.com/udacity/ud839_Miwok/tree/lesson-one/app/src/main/java/com/example/android/miwok
+* AND from the AudioBook App (created by this app's author Marianne McKenzie) for the Udacity nanodegree whose source code can be found here: https://github.com/memckenzie2/AudiobookApp
+*/
+
+/* PERMISSIONS AND COPYRIGHT FOR IMAGES AND TEXT
+* Images and text descriptions for Central Library are used with limited permission for academic use from the
+* Indianapolis Public Library - this permission is granted only to the employee Marianne McKenzie.
+* Images and text may not be reproduced by any other individual without prior written permission from the
+* Indianapolis Public Library: http://www.indypl.org/about/contact/ */
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,14 +35,11 @@ public class MainActivity extends AppCompatActivity {
         // Set the adapter created above to point to the view pager
         viewPager.setAdapter(adapter);
 
-        // Find the tab layout that shows the tabs
+        // Find the tab layout that shows the tabs for each floor fragment
         TabLayout tabLayout = (TabLayout) findViewById(R.id.floor_tabs);
 
-        // Connect the tab layout with the view pager. This will
-        //   1. Update the tab layout when the view pager is swiped
-        //   2. Update the view pager when a tab is selected
-        //   3. Set the tab layout's tab names with the view pager's adapter's titles
-        //      by calling onPageTitle()
+        // Connect the tab layout with the view pager. This allows for swiping and updating the tabLayouts header to hilight the
+        //current floor's tab
         tabLayout.setupWithViewPager(viewPager);
     }
 }

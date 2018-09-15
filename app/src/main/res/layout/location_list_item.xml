@@ -22,7 +22,7 @@
         android:textSize="@dimen/title_text"
         android:textColor="@color/colorLightText"
         android:background="@color/colorPrimary"
-        app:fontFamily="@font/marmelad"
+        app:fontFamily="@font/martel_sans_semibold"
         />
 
     <ImageView
@@ -36,17 +36,17 @@
 
     <TextView
         android:id="@+id/location_description"
-        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/med_margin"
         android:layout_marginLeft="@dimen/med_margin"
         android:layout_marginRight="@dimen/med_margin"
-        android:padding="@dimen/small_padding"
-        android:textSize="@dimen/main_text"
-        android:textColor="@color/colorDarkText"
         android:background="@color/colorAccent"
-        />
+        android:gravity="left|center_vertical"
+        android:padding="@dimen/small_padding"
+        android:textColor="@color/colorDarkText"
+        android:textSize="@dimen/main_text"
+        app:fontFamily="@font/martel" />
 
     <Button
         android:id="@+id/view_in_map"
@@ -59,6 +59,7 @@
         android:layout_marginTop="@dimen/med_margin"
         android:text="@string/view_on_map"
         android:background="@color/colorPrimaryDark"
-        android:textColor="@color/colorLightText"/>
+        android:textColor="@color/colorLightText"
+        />
 
 </LinearLayout>

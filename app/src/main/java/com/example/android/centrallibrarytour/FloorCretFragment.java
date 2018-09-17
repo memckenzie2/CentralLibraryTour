@@ -37,7 +37,7 @@ public class FloorCretFragment extends Fragment {
 
         //Create list of locations for Cret Building
         final ArrayList<LocationData> locs = new ArrayList<LocationData>();
-        locs.add(new LocationData(getString(R.string.floor_cret_materials),getString(R.string.floor_cret_materials_blurb) , "geo:39.7782486,-86.1567497,3a,75y,309.53h,88.11t", R.drawable.east_reading_room_2009_kisling));
+        locs.add(new LocationData(getString(R.string.floor_cret_materials),getString(R.string.floor_cret_materials_blurb) , "geo:39.7782486,-86.1567497,3a,75y", R.drawable.east_reading_room_2009_kisling));
         locs.add(new LocationData(getString(R.string.cblc), getString(R.string.cblc_blurb), null, R.drawable.cblc_website_photos_04));
         locs.add(new LocationData(getString(R.string.architecture), getString(R.string.architecture_blurb), null, R.drawable.p9140521));
 

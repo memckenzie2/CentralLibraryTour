@@ -33,7 +33,7 @@ public class FloorOneFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
-        //Create list of locations for the 1st Floor
+        //Create list of instances of LocationData for locations in the 1st floor
         final ArrayList<LocationData> locs = new ArrayList<LocationData>();
         locs.add(new LocationData(getString(R.string.floor_1_materials), getString(R.string.floor_1_materials_blurb),null, R.drawable.central_photos_architect_photos_053));
         locs.add(new LocationData(getString(R.string.computer_lab), getString(R.string.computer_lab_blurb), null, R.drawable.central_photos_134));

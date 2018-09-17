@@ -39,12 +39,15 @@ public class LocationArrayAdapter extends ArrayAdapter<LocationData>{
         // Get the LocationData object for the given position in the menu list
         final LocationData currentLocItem = getItem(locationPosition);
 
+        //Displays the LocationData's location name to the location_name TextView in location_list_item.xml
         TextView locName = locView.findViewById(R.id.location_name);
         locName.setText(currentLocItem.getLocName());
 
+        //Displays the LocationData's location description to the location_description TextView in location_list_item.xml
         TextView locDescription = locView.findViewById(R.id.location_description);
         locDescription.setText(currentLocItem.getLocDescription());
 
+        //Displays the LocationData's location image in location_list_item.xml if it has a locPictureID defined. If not, sets the image's visibility to GONE.
         final ImageView locImage = locView.findViewById(R.id.location_image);
         if(currentLocItem.getLocPictureId() == -1){
             locImage.setVisibility(View.GONE);
@@ -53,6 +56,7 @@ public class LocationArrayAdapter extends ArrayAdapter<LocationData>{
             locImage.setVisibility(View.VISIBLE);
         }
 
+        //Displays the "VIEW ON MAP" button in location_list_item.xml if the LocationData's instance has a locLink defined. If not, sets the button's visibility to GONE
         Button locMapLink = locView.findViewById(R.id.view_in_map);
         if(currentLocItem.getLocLink() == null){
             locMapLink.setVisibility(View.GONE);
@@ -60,14 +64,17 @@ public class LocationArrayAdapter extends ArrayAdapter<LocationData>{
             locMapLink.setVisibility(View.VISIBLE);
         }
 
+        //Sets an onClickListener for the "VIEW ON MAP" button.
         locMapLink.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                // Creates an Intent that will load a map of San Francisco
+                // Creates an Intent for a map app and passes it the geographic location from the LocationData instance
                 Uri gmmIntentUri = Uri.parse(currentLocItem.getLocLink());
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
                 mapIntent.setPackage("com.google.android.apps.maps");
+
+                //Launches user's default map app
                 locImage.getContext().startActivity(mapIntent);
             }
 

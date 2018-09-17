@@ -22,23 +22,30 @@ public class FloorAdapter extends FragmentPagerAdapter{
         myContext = context;
     }
 
-    //Points each position to the appropriate floor starting with the "cret" at 0, 1st floor at 1, etc.
+    //Points each position to the appropriate floor starting with the "main floor" (2nd) at 0, then the "old library" (the cret) at 1, then 1st-6th
     @Override
     public Fragment getItem(int position) {
         if(position == 0){
+            //The main floor fragment (2nd floor)
             return new FloorTwoFragment();
         }
         else if (position == 1){
+            //The "old library" - the Cret fragment
             return new FloorCretFragment();
         }else if (position == 2){
+            //The "basement" floor - floor 1 fragment
             return new FloorOneFragment();
         }else if (position == 3){
+            //The third floor - floor 3 fragment
             return new FloorThreeFragment();
         }else if (position == 4){
+            //The fourth floor - floor 4 fragment
             return new FloorFourFragment();
         }else if (position == 5){
+            //The fifth floor - floor 5 fragment
             return new FloorFiveFragment();
         } else {
+            //The sixth floor - floor 6 fragment
             return new FloorSixFragment();
         }
     }
@@ -49,6 +56,7 @@ public class FloorAdapter extends FragmentPagerAdapter{
         return 7;
     }
 
+    //Points each position to the appropriate floor name string with the "main floor" (2nd) at 0, then the "old library" (the cret) at 1, then 1st-6th
     @Override
     public CharSequence getPageTitle(int position) {
         if(position == 0){

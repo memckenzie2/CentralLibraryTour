@@ -28,7 +28,7 @@ public class FloorFourFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
-        //Create list of locations for Cret Building
+        //Create list of instances of LocationData for locations in the 4th floor
         final ArrayList<LocationData> locs = new ArrayList<LocationData>();
         locs.add(new LocationData(getString(R.string.floor_4_materials), getString(R.string.floor_4_materials_blurb), null,R.drawable.pict0038_2 ));
         locs.add(new LocationData(getString(R.string.general_use_pc), getString(R.string.general_use_pc_blurb), null, R.drawable.imcpl_599));
